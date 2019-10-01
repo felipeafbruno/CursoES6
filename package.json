@@ -1,0 +1,21 @@
+{
+  "name": "CursoES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
+  },
+  "scripts": {
+    "class":"babel ./class.js -o ./bundle1.js",
+    "variabel":"babel ./variabel.js -o ./bundle2.js",
+    "array":"babel ./array.js -o ./bundle3.js",
+    "arrowfunction":"babel ./arrowfunction.js -o ./bundle4.js",
+    "valorpadrao":"babel ./valorpadrao.js -o ./bundle5.js",
+    "desestruturacao":"babel ./desestruturacao.js -o ./bundle6.js",
+    "restspread":"babel ./restspread.js -o ./bundle7.js",
+    "templateliteral":"babel ./templateliteral.js -o ./bundle8.js",
+    "objectshortsyntax":"babel ./objectshortsyntax.js -o ./bundle9.js"
+  }  
+}
